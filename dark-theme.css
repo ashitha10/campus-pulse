@@ -1,0 +1,67 @@
+
+/* Dark theme overrides for Campus Pulse */
+:root{
+  --ink:#f3f0ff;
+  --muted:#aaa6c2;
+  --purple:#a18aff;
+  --purple-dark:#8264ff;
+  --line:#302b49;
+  --page:#100f1b;
+  --white:#1b192a;
+}
+body{background:#100f1b;color:#f3f0ff}
+.navbar{background:rgba(22,20,37,.94);border-bottom-color:#302b49}
+.nav-link{color:#b3aecb}
+.nav-link:hover,.nav-link.active{color:#b6a5ff}
+.nav-cta{background:#292342;color:#c7baff}
+.hero{background:radial-gradient(ellipse at 78% 18%,rgba(142,113,255,.38),transparent 34%),radial-gradient(ellipse at 92% 90%,rgba(255,115,191,.16),transparent 33%),linear-gradient(118deg,#100d29 0%,#211442 54%,#38206c 100%)}
+.section-heading p,.event-counter{color:#aaa6c2}
+.search-box,.filter-btn,.event-card,.empty-state{background:#1a1829;border-color:#34304b;color:#f3f0ff}
+.search-box{box-shadow:none}
+.search-box input{color:#f3f0ff}
+.search-box input::placeholder{color:#8f89aa}
+.filter-btn{color:#c0bad7}
+.filter-btn:hover{border-color:#8d76ff;color:#c7baff}
+.filter-btn.selected{background:#7457ed;border-color:#7457ed;color:#fff}
+.event-card{box-shadow:0 8px 25px rgba(0,0,0,.12)}
+.event-card:hover{box-shadow:0 16px 38px rgba(0,0,0,.3)}
+.event-details>p,.event-meta{color:#aaa6c2}
+.event-footer{border-top-color:#302b43}
+.tag-purple{background:#2b2449;color:#c6b8ff}
+.tag-pink{background:#3a2030;color:#ff9fc2}
+.tag-orange{background:#3c2a20;color:#ffc08f}
+.tag-green{background:#1d362c;color:#90e3ba}
+.tag-blue{background:#1d2c43;color:#9bcaff}
+.tag-yellow{background:#3b321d;color:#f6d77f}
+.date-pink{background:#3b2030;color:#ff9fc2}
+.date-orange{background:#3b291f;color:#ffc08f}
+.date-green{background:#1c362b;color:#90e3ba}
+.date-blue{background:#1d2b42;color:#9bcaff}
+.date-yellow{background:#3b321d;color:#f6d77f}
+.event-date{background:#2b2449;color:#c6b8ff}
+.join-banner{background:linear-gradient(110deg,#25203e,#302033)}
+.join-symbol{background:#1a1829;color:#b6a5ff}
+.join-banner p{color:#b5afcc}
+.join-banner .button{background:#8061ff;color:#fff}
+footer{background:#151322;border-top-color:#302b49}
+footer p,footer>span{color:#aaa6c2}
+.modal-backdrop{background:rgba(4,3,12,.78)}
+.modal{background:#1b192a;color:#f3f0ff}
+.modal-close{background:#302b43;color:#eee9ff}
+.modal>p{color:#b4aecb}
+.modal-facts div{background:#28233e}
+.modal-facts span{color:#aaa1c9}
+.modal form input{background:#141221;border-color:#3b3554;color:#f3f0ff}
+.modal form input::placeholder{color:#817a9d}
+.form-note{color:#aaa6c2}
+.success-message{background:#1d382c;color:#b8f5d2}
+.success-message>span{background:#2b6248}
+.success-message p{color:#b8e4cc}
+.status-pill.up{background:#1d382c;color:#9be6bd}
+.status-pill.past{background:#302b3d;color:#c0bad0}
+.modal-official-link{background:#30264f;color:#d1c5ff}
+.poster{box-shadow:0 25px 65px rgba(0,0,0,.55)}
+@media(max-width:650px){
+ .navbar{background:rgba(22,20,37,.97)}
+ .event-card{background:#1a1829}
+}
